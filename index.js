@@ -1,3 +1,9 @@
+/*
+The additive persistence of an integer, n, is the number
+of times you have to replace n with the sum of its
+digits until n becomes a single digit integer.
+*/
+
 function additivePersistence(n){
     let counter = 0;
     while (n > 9) {
@@ -6,6 +12,12 @@ function additivePersistence(n){
     }
     return counter;
 }
+
+/*
+The multiplicative persistence of an integer, n, is the
+number of times you have to replace n with the product
+of its digits until n becomes a single digit integer.
+*/
 
 function multiplicativePersistence(n){
     let counter = 0;
